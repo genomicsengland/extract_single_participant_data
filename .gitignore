@@ -1,0 +1,6 @@
+# Mac/OSX
+.DS_Store
+
+# possible PID
+*.xlsx
+*.xls
