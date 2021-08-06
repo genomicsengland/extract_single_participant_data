@@ -1,76 +1,82 @@
-﻿table,level,export
-aggregate_gvcf_sample_stats,participant,TRUE
-av_imd,participant,TRUE
-av_patient,participant,TRUE
-av_rtd,participant,TRUE
-av_treatment,participant,TRUE
-av_tumour,participant,TRUE
-cancer_analysis,participant,TRUE
-cancer_care_plan,participant,TRUE
-cancer_invest_circulating_tumour_marker,participant,TRUE
-cancer_invest_imaging,participant,TRUE
-cancer_invest_sample_pathology,participant,TRUE
-cancer_participant_disease,participant,TRUE
-cancer_participant_tumour,participant,TRUE
-cancer_participant_tumour_metastatic_site,participant,TRUE
-cancer_risk_factor_cancer_specific,participant,TRUE
-cancer_risk_factor_general,participant,TRUE
-cancer_specific_pathology,participant,TRUE
-cancer_staging_consolidated,participant,TRUE
-cancer_surgery,participant,TRUE
-cancer_systemic_anti_cancer_therapy,participant,TRUE
-cen,participant,TRUE
-clinic_sample,participant,TRUE
-clinic_sample_quality_check_result,participant,TRUE
-cwt,participant,TRUE
-death_details,participant,TRUE
-denovo_cohort_information,participant,TRUE
-denovo_flagged_variants,participant,TRUE
-did,participant,TRUE
-did_bridge,participant,TRUE
-domain_assignment,participant,TRUE
-ecds,participant,TRUE
-exomiser,participant,TRUE
-genome_file_paths_and_types,participant,TRUE
-gmc_exit_questionnaire,participant,TRUE
-hes_ae,participant,TRUE
-hes_apc,participant,TRUE
-hes_cc,participant,TRUE
-hes_op,participant,TRUE
-laboratory_sample,participant,TRUE
-laboratory_sample_omics_availability,participant,TRUE
-lrs_laboratory_sample,participant,TRUE
-lrs_sequencing_data,participant,TRUE
-lucada_2013,participant,TRUE
-lucada_2014,participant,TRUE
-mh_bridge,participant,TRUE
-mhldds_episode,participant,TRUE
-mhldds_event,participant,TRUE
-mhldds_record,participant,TRUE
-mhmd_v4_episode,participant,TRUE
-mhmd_v4_event,participant,TRUE
-mhmd_v4_record,participant,TRUE
-ncras_did,participant,TRUE
-ons,participant,TRUE
-panels_applied,participant,TRUE
-participant,participant,TRUE
-plated_sample,participant,TRUE
-proms,participant,TRUE
-rare_disease_analysis,participant,TRUE
-rare_diseases_early_childhood_observation,participant,TRUE
-rare_diseases_family,gcr,TRUE
-rare_diseases_gen_measurement,participant,TRUE
-rare_diseases_imaging,participant,TRUE
-rare_diseases_invest_blood_laboratory_test_report,participant,TRUE
-rare_diseases_invest_genetic,participant,TRUE
-rare_diseases_invest_genetic_test_result,participant,TRUE
-rare_diseases_participant_disease,participant,TRUE
-rare_diseases_participant_phenotype,participant,TRUE
-rare_diseases_pedigree,participant,TRUE
-rare_diseases_pedigree_member,participant,TRUE
-rtds,participant,TRUE
-sact,participant,TRUE
-sact_uncurated,participant,TRUE
-sequencing_report,participant,TRUE
-tiered_variants_frequency,participant,TRUE
-tiering_data,participant,TRUE
+﻿table,level,export,note
+aggregate_gvcf_sample_stats,participant,FALSE,not clinical data
+aml_path_reports,participant,TRUE,
+av_imd,participant,TRUE,
+av_patient,participant,TRUE,
+av_rtd,participant,TRUE,
+av_treatment,participant,TRUE,
+av_tumour,participant,TRUE,
+breast_specific_dataset_pilot,participant,TRUE,
+cancer_analysis,participant,TRUE,
+cancer_care_plan,participant,TRUE,
+cancer_invest_circulating_tumour_marker,participant,TRUE,
+cancer_invest_imaging,participant,TRUE,
+cancer_invest_sample_pathology,participant,TRUE,
+cancer_participant_disease,participant,TRUE,
+cancer_participant_tumour,participant,TRUE,
+cancer_participant_tumour_metastatic_site,participant,TRUE,
+cancer_risk_factor_cancer_specific,participant,TRUE,
+cancer_risk_factor_general,participant,TRUE,
+cancer_specific_pathology,participant,TRUE,
+cancer_staging_consolidated,participant,TRUE,
+cancer_surgery,participant,TRUE,
+cancer_systemic_anti_cancer_therapy,participant,TRUE,
+clinic_sample,participant,TRUE,
+clinic_sample_quality_check_result,participant,TRUE,
+colorectal_specific_dataset_pilot,participant,TRUE,
+cwt,participant,TRUE,
+death_details,participant,TRUE,
+denovo_cohort_information,participant,FALSE,not clinical data
+denovo_flagged_variants,participant,FALSE,not clinical data
+did,participant,TRUE,
+did_bridge,participant,TRUE,
+domain_assignment,participant,FALSE,"not clinical data, just reference table linking participant to GeCIP domain"
+ecds,participant,TRUE,
+exomiser,participant,FALSE,not clinical data
+genome_file_paths_and_types,participant,FALSE,not clinical data
+gmc_exit_questionnaire,participant,TRUE,
+hes_ae,participant,TRUE,
+hes_apc,participant,TRUE,
+hes_cc,participant,TRUE,
+hes_op,participant,TRUE,
+laboratory_sample,participant,TRUE,
+laboratory_sample_omics_availability,participant,FALSE,"contains count of aliquots of each lab sample, not relevant to extract"
+lrs_laboratory_sample,participant,FALSE,not clinical data
+lrs_sequencing_data,participant,FALSE,not clinical data
+lucada_2013,participant,TRUE,
+lucada_2014,participant,TRUE,
+mh_bridge,participant,TRUE,
+mhldds_episode,participant,TRUE,
+mhldds_event,participant,TRUE,
+mhldds_record,participant,TRUE,
+mhmd_v4_episode,participant,TRUE,
+mhmd_v4_event,participant,TRUE,
+mhmd_v4_record,participant,TRUE,
+mortality,participant,TRUE,
+ncras_did,participant,TRUE,
+panels_applied,participant,FALSE,not clinical data
+participant,participant,TRUE,
+participant_supplementary_data,participant,FALSE,not clinical data
+plated_sample,participant,TRUE,
+proms,participant,TRUE,
+rare_disease_analysis,participant,FALSE,not clinical data
+rare_disease_interpreted,participant,FALSE,not clinical data
+rare_diseases_early_childhood_observation,participant,TRUE,
+rare_diseases_family,gcr,TRUE,
+rare_diseases_gen_measurement,participant,TRUE,
+rare_diseases_imaging,participant,TRUE,
+rare_diseases_invest_blood_laboratory_test_report,participant,TRUE,
+rare_diseases_invest_genetic,participant,TRUE,
+rare_diseases_invest_genetic_test_result,participant,TRUE,
+rare_diseases_participant_disease,participant,TRUE,
+rare_diseases_participant_phenotype,participant,TRUE,
+rare_diseases_pedigree,gcr,FALSE,just a linking table that is not needed for participant extract
+rare_diseases_pedigree_member,participant,TRUE,
+renal_specific_dataset_pilot,participant,TRUE,
+rtds,participant,TRUE,
+sact,participant,TRUE,
+sact_uncurated,participant,TRUE,
+sequencing_report,participant,FALSE,not clinical data
+testes_path_reports,participant,TRUE,
+tiered_variants_frequency,participant,FALSE,not clinical data
+tiering_data,participant,FALSE,not clinical data
