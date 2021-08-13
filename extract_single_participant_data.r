@@ -1,7 +1,9 @@
 # script to extract a single participant's data from the research release
+# requires access to embassy vpn to access RE labkey from outside
 # command: Rscript extract_single_participant_data.r <participant_id> <project_name> <output_directory>
 # e.g. Rscript extract_single_participant_data.r 100121453 main-programme_v10_2020-09-03 ~/scratch
 rm(list = objects())
+Sys.setenv(TZ = "UTC")
 options(stringsAsFactors = FALSE,
     scipen = 200)
 library(Rlabkey)
@@ -72,12 +74,12 @@ for (i in seq_len(nrow(table_manifest))) {
     d[[tab]] <- read_participant_data_from_table(tab, id, level)
 }
 
-# function to write out csv file with date and participant_id appended to
+# function to write out tsv file with date and participant_id appended to
 # filename
 write_csv <- function(df, fn) {
     ffn <- paste0(output_directory, "/", fn, "-", participant_id, "-",
-                  Sys.Date(), ".csv")
-    write.csv(df, ffn, row.names = F)
+                  Sys.Date(), ".xls")
+    write.table(df, ffn, sep = "\t", row.names = F)
 }
 
 dir.create(output_directory, showWarnings = FALSE)
