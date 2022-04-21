@@ -30,7 +30,7 @@ denovo_cohort_information,participant,FALSE,not clinical data
 denovo_flagged_variants,participant,FALSE,not clinical data
 did,participant,TRUE,
 did_bridge,participant,TRUE,
-domain_assignment,participant,FALSE,"not clinical data, just reference table linking participant to GeCIP domain"
+domain_assignment,participant,FALSE,"not clinical data just reference table linking participant to GeCIP domain"
 ecds,participant,TRUE,
 exomiser,participant,FALSE,not clinical data
 genome_file_paths_and_types,participant,FALSE,not clinical data
@@ -40,7 +40,7 @@ hes_apc,participant,TRUE,
 hes_cc,participant,TRUE,
 hes_op,participant,TRUE,
 laboratory_sample,participant,TRUE,
-laboratory_sample_omics_availability,participant,FALSE,"contains count of aliquots of each lab sample, not relevant to extract"
+laboratory_sample_omics_availability,participant,FALSE,"contains count of aliquots of each lab sample not relevant to extract"
 lrs_laboratory_sample,participant,FALSE,not clinical data
 lrs_sequencing_data,participant,FALSE,not clinical data
 lucada_2013,participant,TRUE,
@@ -80,3 +80,48 @@ sequencing_report,participant,FALSE,not clinical data
 testes_path_reports,participant,TRUE,
 tiered_variants_frequency,participant,FALSE,not clinical data
 tiering_data,participant,FALSE,not clinical data
+cancer_100K_genomes_realigned_on_pipeline_2,participant,TRUE,
+cancer_register_nhsd,participant,TRUE,
+covid_test_results,participant,TRUE,
+glioma_specific_dataset_pilot,participant,TRUE,
+mhsds_assigned_care_professional,participant,TRUE,
+mhsds_bridge,participant,TRUE,
+mhsds_care_activity,participant,TRUE,
+mhsds_care_cluster,participant,TRUE,
+mhsds_care_contact,participant,TRUE,
+mhsds_care_coordinator,participant,TRUE,
+mhsds_care_plan_agreement,participant,TRUE,
+mhsds_care_plan_type,participant,TRUE,
+mhsds_care_programme_approach_care_episode,participant,TRUE,
+mhsds_care_programme_approach_review,participant,TRUE,
+mhsds_clustering_tool_assessment,participant,TRUE,
+mhsds_coded_score_assessment_clustering_tool,participant,TRUE,
+mhsds_coded_scored_assessment_act,participant,TRUE,
+mhsds_coded_scored_assessment_cont,participant,TRUE,
+mhsds_coded_scored_assessment_referral,participant,TRUE,
+mhsds_crisis_plan,participant,TRUE,
+mhsds_curated_assessment_diagnoses_and_cluster,participant,TRUE,
+mhsds_curated_community,participant,TRUE,
+mhsds_curated_inpatient,participant,TRUE,
+mhsds_curated_participant,participant,TRUE,
+mhsds_dataset_flags,participant,TRUE,
+mhsds_delayed_discharge,participant,TRUE,
+mhsds_discharge_plan_agreement,participant,TRUE,
+mhsds_gp_practice_registration,participant,TRUE,
+mhsds_hospital_provider_spell,participant,TRUE,
+mhsds_hospital_provider_spell_commissioner,participant,TRUE,
+mhsds_indirect_activity,participant,TRUE,
+mhsds_master_patient_index,participant,TRUE,
+mhsds_medical_history_previous_diagnosis,participant,TRUE,
+mhsds_onward_referral,participant,TRUE,
+mhsds_other_in_attendance,participant,TRUE,
+mhsds_other_reason_for_referral,participant,TRUE,
+mhsds_patient_indicators,participant,TRUE,
+mhsds_primary_diagnosis,participant,TRUE,
+mhsds_provisional_diagnosis,participant,TRUE,
+mhsds_referral_to_treatment,participant,TRUE,
+mhsds_responsible_clinician_assignment,participant,TRUE,
+mhsds_secondary_diagnosis,participant,TRUE,
+mhsds_service_or_team_referral,participant,TRUE,
+mhsds_service_or_team_type_referred_to,participant,TRUE,
+mhsds_ward_stay,participant,TRUE,
